@@ -43,7 +43,7 @@ const SEO = ({ seo = {} }) => {
     }
     if (fullSeo.shareImage) {
       const imageUrl =
-        (process.env.GATSBY_ROOT_URL || "http://localhost:8000") +
+        (process.env.GATSBY_ROOT_URL || "https://project-pg4qm.ondigitalocean.app") +
         fullSeo.shareImage.publicURL;
       tags.push(
         {

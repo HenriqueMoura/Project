@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: "gatsby-source-strapi",
       options: {
-        apiURL: process.env.API_URL || "http://localhost:1337",
+        apiURL: process.env.API_URL || "https://project-pg4qm.ondigitalocean.app",
         contentTypes: ["article", "category", "writer"],
         singleTypes: [`homepage`, `global`],
         queryLimit: 1000,
